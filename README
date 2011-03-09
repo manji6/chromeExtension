@@ -1,0 +1,39 @@
+//======================================================================
+//
+// Google Chrome 拡張機能 作成手引き
+//
+//======================================================================
+
+■リファレンス
+
+公式リファレンス
+http://code.google.com/chrome/extensions/docs.html
+
+Chrome Extension API リファレンス(日本語意訳版)
+http://dev.screw-axis.com/doc/chrome_extensions/
+
+
+Chrome 拡張入門(発表資料)
+http://ss-o.net/chrome/extension/introduction.html
+
+gihyo.jpの連載
+http://gihyo.jp/dev/serial/01/chrome-extensions
+
+
+■基本
+
+□フォルダ構成
+
+【最小構成】
+root/
+  -manifest.json
+  -icon.png
+
+
+
+
+■種類
+
+　・background_page: 常に常駐するもの。表示は無いので、実質HTMLとしてつくるがjavascriptのみでOK
+
+
